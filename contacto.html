@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+   <title>web de mascotas</title>
+ </head>
+  <body>
+  
+   <div>
+    <a href="home.html"><img src="logo.png"  alt="logo mascotas"width="450"/></a>
+   </div>
+
+   <div id="top-navigation">
+      <ul id="top-menu">
+        
+        <li><a href="quienes-somos.html/">Quienes somos</a></li>
+        <li><a href="servicios.html/">Servicios</a></li>
+        <li><a href="precios.html/">Precios</a></li>
+        
+      </ul>
+   </div>
+
+   <div class="presentacion">
+	  <h1>¿Te podemos ayudar en algo?</h1>
+		
+       <h4>Contacta con nuestro equipo</h4>
+       <form method="post" action="miservidor.php">
+     <div>
+       <label for=”NO”>Nombre</label>
+       <input id=”CP” type=”text”>
+     </div>
+     <div>
+       <label for=”email”>E-mail</label>
+       <input id=”email” type=”text”>
+     </div>
+     <div>
+       <label for=”experiencia”>Estoy interesado en:</label>
+       <select id=”Experiencia”>
+         <option value=”RE”>Re-educación y adiestramiento</option>
+         <option value=”PA”>Paseos a mi perro </option>
+         <option value=”GU”>Guardería canina</option>
+       </select>
+     </div>
+     <div>
+     <label for=”positivo”>Déjanos algún comentario</label>
+     <textarea id=”positivo”></textarea>
+   </div>
+   <div>
+     <button class="enviar" type="submit">Enviar</button>
+   </div>
+</form>
+    
+       
+  </div>
+   
+
+   
+</body>
+</html>
